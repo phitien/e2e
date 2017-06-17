@@ -1,0 +1,27 @@
+{
+	"body": {
+        "id": 3,
+        "tradeId": 3,
+        "productType": "REPO",
+        "service": "Trade",
+        "msgTimeStamp": "2017-06-20 02:17:34",
+        "status": "Success",
+        "tracks": [
+            {"id": 1, "name": "CEFTS", "date": "2017-06-20 02:17:34", "status": "sent"},
+            {"id": 2, "name": "SAIL", "date": "2017-06-20 02:17:34", "status": "sent"},
+            {"id": 3, "name": "EDMI", "date": "2017-06-20 02:17:34", "status": "sent"},
+            {"id": 4, "name": "MLS", "date": "2017-06-20 02:17:34", "status": "nack"},
+            {"id": 5, "name": "MUREX", "date": "2017-06-20 02:17:34", "status": "wait"},
+            {"id": 6, "name": "BTS", "date": "2017-06-20 02:17:34", "status": "wait"}
+        ],
+        "threshold": 120,
+        "data": [
+            {"name": "CEFTS", "value": 100},
+            {"name": "SAIL", "value": 100},
+            {"name": "EDMI", "value": 100},
+            {"name": "MLS", "value": 100},
+            {"name": "MUREX", "value": 100},
+            {"name": "BTS", "value": 100}
+        ]
+    }
+}
